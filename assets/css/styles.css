@@ -76,3 +76,17 @@ a{
     font-size: 1em;
     padding: .5em, 1em;
 }
+
+#site-main .container form{
+    margin: 2em 0;
+}
+
+table{
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.table td, .table th{
+    padding: .75em;
+    vertical-align: top;
+}
