@@ -22,9 +22,9 @@ user.save(user)
 .catch(err=>{
 
 res.status(500).send({
-    message:err.message || "Som error occuerd while creating a create opertaion"
+    message:err.message || "Some error occured while creating a create opertation"
 });
-});
+}); 
 }
 
 //retrieve and return all users/ retrieve and return a single user
